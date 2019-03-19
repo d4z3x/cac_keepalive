@@ -1,0 +1,11 @@
+{
+	
+	"payload": {"username": "YOUR_EMAIL",
+		    "password": "YOURPASSWORD",
+		    "failedpage": "login-failed-2.php",
+		    "submit": "Login"},
+	"logfile": "./cloudatcost-keepalive.log",
+	"base_url": "https://panel.cloudatcost.com",
+	"post_uri": "/manage-check2.php",
+	"logout_uri": "/logout.php"
+}
