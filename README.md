@@ -9,8 +9,10 @@ One fine day, I noticed my VMs on CAC just never came back. They routinely go do
 - Install required packages:  
 `pip3 install requests`
 - Update `settings.json` with your username and password, and the logfile output
-- Test script by running it manually and checking the logfile, which by default is saved in the current directory from where the python script is launched from. The default is: `./cloudatcost-keepalive.log`
-- You may wish to disable email notification, or you will get email each time this script runs successfully
+- Test script by running it manually:  
+`python3 cac_keepalive.py`
+- Check the logfile, which by default is saved in the current directory from where the python script is launched from. The default is: `./cloudatcost-keepalive.log`
+- You may wish to disable email notification in the CAC Portal, or you will get email each time this script runs successfully
 
 ### TODO:
 - Add setup.py
