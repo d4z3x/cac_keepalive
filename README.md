@@ -1,8 +1,10 @@
-# cac_keepalive
+# cac_keepalive.py
 
 ### Purpose
-
 One fine day, I noticed my VMs on CAC just never came back. They routinely go down, sometimes for a day and normally come back up. After checking with them, they confirmed that they nuked the VMs because nobody logged on in over 6 months to their portal. While being ridiculous, I knew that I was not going to remember to log in at least every few months. So I wrote this simple script to log in daily or at an interval of your choosing via contab. I suggest a more gentle interval of every 2 weeks.
+
+### Warning
+This is a hacked together script built for my simple use case. It does not do much (if any) error checking. Feel free to send PRs. 
 
 ### Installation
 - Clone this repo
@@ -20,3 +22,6 @@ One fine day, I noticed my VMs on CAC just never came back. They routinely go do
 - Add command line argument parser to display logging data to STDOUT
 - Understand and fix why the session cause an email from CAC, but does not occur via a browser... Cookies not loading correctly?
 - PEX file?
+
+### Licensing
+THis code is licensed under GPL v3.
