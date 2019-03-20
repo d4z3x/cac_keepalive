@@ -10,3 +10,11 @@ One fine day, I noticed my VMs on CAC just never came back. They routinely go do
 `pip3 install requests`
 - Update `settings.json` with your username and password, and the logfile output
 - Test script by running it manually and checking the logfile, which by default is saved in the current directory from where the python script is launched from. The default is: `./cloudatcost-keepalive.log`
+- You may wish to disable email notification, or you will get email each time this script runs successfully
+
+### TODO:
+- Add setup.py
+- Add a requirements.txt file
+- Add command line argument parser to display logging data to STDOUT
+- Understand and fix why the session cause an email from CAC, but does not occur via a browser... Cookies not loading correctly?
+- PEX file?
